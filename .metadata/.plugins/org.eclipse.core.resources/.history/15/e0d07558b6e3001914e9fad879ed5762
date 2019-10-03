@@ -1,0 +1,13 @@
+package com.appsdeveloperblog.app.ws.ui.model.request;
+
+import javax.validation.constraints.NotNull;
+
+public class UpdateUserDetailsRequestModel {
+	
+	@NotNull(message = "first name cannot be null...")
+	private String firstName;
+	
+	@NotNull
+	private String lastName;
+	
+}
